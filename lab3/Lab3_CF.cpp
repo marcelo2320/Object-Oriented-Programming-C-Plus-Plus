@@ -15,6 +15,7 @@ int main() {
     
     else 
         printf("x is odd\n")
+        printf("test")
     
 return 0;
     
