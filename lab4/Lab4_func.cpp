@@ -23,13 +23,13 @@ int sumOfThree(int x, int y, int z){
  string select(string func_type){
     string out="";
     if(func_type == "sum"){
-        out = "The sum is\n";     
+        out = "The sum is ";     
     }
     else if (func_type == "division"){
-        out = "The quotient is\n";
+        out = "The quotient is ";
     }
     else if (func_type == "comparison"){
-        out = "The first value being greater than the second value is\n";
+        out = "The first value being greater than the second value is ";
     }
     else{
         out ="Invalid function type\n";
