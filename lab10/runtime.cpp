@@ -17,7 +17,7 @@ using namespace std;
 int iterativeSearch(vector<int>v, int elem){
    
     for( int i = 0; i < v.size(); i++){
-        if (v[i] == elem){
+        if (v[i] == elem){ 
             return i;
         }
     }

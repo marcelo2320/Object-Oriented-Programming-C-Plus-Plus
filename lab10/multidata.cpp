@@ -12,7 +12,7 @@ using namespace std;
  * 
  * @param v : vector of elements
  * @param elem : integer to look for
- * @return int
+ * @return int 
 */
 int iterativeSearch(vector<int>v, int elem){
    
